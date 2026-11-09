@@ -1,0 +1,15 @@
+{
+  "name": "deskpa-console",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node preview.mjs",
+    "build": "python3 build.py",
+    "test": "node --test checks.test.mjs",
+    "start": "node preview.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
